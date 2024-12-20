@@ -380,6 +380,173 @@ MinimapIcon 1 White Square
 SetFontSize 40
 
 #--------------------------
+# Two Hand Maces
+#--------------------------
+
+Show
+Rarity Normal
+BaseType "Expert Forge Maul" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Crumbling Maul" "Expert Leaden Greathammer"
+PlayEffect Yellow
+SetFontSize 40
+
+Show
+Rarity Magic
+BaseType "Expert Forge Maul" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Crumbling Maul" "Expert Leaden Greathammer"
+SetFontSize 48
+SetTextColor 64 128 228
+SetBorderColor 64 128 228
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+Show
+Rarity Rare
+BaseType "Expert Forge Maul" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Crumbling Maul" "Expert Leaden Greathammer"
+SetFontSize 52
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+#--------------------------
+# Shield (str)
+#--------------------------
+
+Show
+Rarity Normal
+BaseType "Expert Braced Tower Shield" "Expert Rampart Tower Shield" "Expert Stone Tower Shield" "Golden Flame"
+PlayEffect Yellow
+SetFontSize 40
+
+Show
+Rarity Magic
+BaseType "Expert Braced Tower Shield" "Expert Rampart Tower Shield" "Expert Stone Tower Shield" "Golden Flame"
+SetFontSize 48
+SetTextColor 64 128 228
+SetBorderColor 64 128 228
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+Show
+Rarity Rare
+BaseType "Expert Braced Tower Shield" "Expert Rampart Tower Shield" "Expert Stone Tower Shield" ""Golden Flame""
+SetFontSize 52
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+#--------------------------
+# Gloves (str)
+#--------------------------
+
+Show
+Rarity Normal
+BaseType "Expert Riveted Mitts" "Expert Bolstered Mitts" "Expert Moulded Mitts" "Golden Bracers"
+PlayEffect Yellow
+SetFontSize 40
+
+Show
+Rarity Magic
+BaseType "Expert Riveted Mitts" "Expert Bolstered Mitts" "Expert Moulded Mitts" "Golden Bracers"
+SetFontSize 48
+SetTextColor 64 128 228
+SetBorderColor 64 128 228
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+Show
+Rarity Rare
+BaseType "Expert Riveted Mitts" "Expert Bolstered Mitts" "Expert Moulded Mitts" "Golden Bracers"
+SetFontSize 52
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+#--------------------------
+# Boots (str)
+#--------------------------
+
+Show
+Rarity Normal
+BaseType "Expert Iron Greaves" "Expert Trimmed Greaves" "Expert Stone Greaves" "Golden Caligae"
+SetFontSize 40
+
+Show
+Rarity Magic
+BaseType "Expert Iron Greaves" "Expert Trimmed Greaves" "Expert Stone Greaves" "Golden Caligae"
+SetFontSize 48
+SetTextColor 64 128 228
+SetBorderColor 64 128 228
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+Show
+Rarity Rare
+BaseType "Expert Iron Greaves" "Expert Trimmed Greaves" "Expert Stone Greaves" "Golden Caligae"
+SetFontSize 52
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+#--------------------------
+# Body Armours (str)
+#--------------------------
+
+Show
+Rarity Normal
+BaseType "Expert Iron Cuirass" "Expert Steel Plate" "Expert Vaal Cuirass" "Golden Mantle"
+PlayEffect Yellow
+SetFontSize 40
+
+Show
+Rarity Magic
+BaseType "Expert Iron Cuirass" "Expert Steel Plate" "Expert Vaal Cuirass" "Golden Mantle"
+SetFontSize 48
+SetTextColor 64 128 228
+SetBorderColor 64 128 228
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+Show
+Rarity Rare
+BaseType "Expert Iron Cuirass" "Expert Steel Plate" "Expert Vaal Cuirass" "Golden Mantle"
+SetFontSize 52
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+#--------------------------
+# Helmets (str)
+#--------------------------
+
+Show
+Rarity Normal
+BaseType "Expert Soldier Greathelm" "Expert Spired Greathelm" "Expert Elite Greathelm" "Golden Wreath" "Golden Visage"
+PlayEffect Yellow
+SetFontSize 40
+
+Show
+Rarity Magic
+BaseType "Expert Soldier Greathelm" "Expert Spired Greathelm" "Expert Elite Greathelm" "Golden Wreath" "Golden Visage"
+SetFontSize 48
+SetTextColor 64 128 228
+SetBorderColor 64 128 228
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+Show
+Rarity Rare
+BaseType "Expert Soldier Greathelm" "Expert Spired Greathelm" "Expert Elite Greathelm" "Golden Wreath" "Golden Visage"
+SetFontSize 52
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+#--------------------------
 # Value Rares
 #--------------------------
 
@@ -399,11 +566,13 @@ MinimapIcon 1 Yellow Diamond
 Show
 Rarity Normal
 Class "Rings" "Amulets" "Belts"
+PlayEffect Yellow
 SetFontSize 40
 
 Show
 Class "Rings" "Amulets" "Belts"
 Rarity Magic
+PlayEffect Yellow
 SetFontSize 40
 
 #--------------------------
@@ -438,13 +607,13 @@ SetFontSize 35
 # Random Rares
 #--------------------------
 
-## Uncomment this rule to hide low level rares in high level zones
+# Uncomment this rule to hide low level rares in high level zones
 
-# Hide
-# Rarity Rare
-# DropLevel < 50
-# AreaLevel > 72
-# SetFontSize 35
+Hide
+Rarity Rare
+DropLevel < 50
+AreaLevel > 72
+SetFontSize 35
 
 Show
 Rarity Rare
@@ -505,10 +674,10 @@ Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One 
 ### OPTIONAL RULE: Hide random bases
 # REMOVE THE BASES YOU --DO-- WANT TO SEE BEFORE SETTING TO HIDE
 
-# Hide
-# Rarity <= Magic
-# Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
-# AreaLevel >= 65
+Hide
+Rarity <= Magic
+Class "Foci" "Quivers" "One Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
+AreaLevel >= 65
 
 ### OPTIONAL RULE: REDUCES BACKGROUND ON LOW LEVEL BASES
 
