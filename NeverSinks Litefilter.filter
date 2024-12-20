@@ -428,7 +428,7 @@ MinimapIcon 1 Yellow Diamond
 
 Show
 Rarity Rare
-BaseType "Expert Braced Tower Shield" "Expert Rampart Tower Shield" "Expert Stone Tower Shield" ""Golden Flame""
+BaseType "Expert Braced Tower Shield" "Expert Rampart Tower Shield" "Expert Stone Tower Shield" "Golden Flame"
 SetFontSize 52
 SetTextColor 233 206 75
 SetBorderColor 233 206 75
